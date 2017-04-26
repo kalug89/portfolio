@@ -53,6 +53,36 @@ a:hover{
 margin-top: 10px;
 }
 
+
+
+
+.about-section   a{
+  color:#b18857;
+  font-weight: 600;
+}
+
+
+
+.about-section a::selection {
+    background-color: #e68200;
+    color:white;
+}
+
+.about-section span::selection {
+    background-color: #e68200;
+    color:white;
+}
+
+.about-section strong::selection {
+    background-color: #e68200;
+    color:white;
+}
+
+.about-section span{
+  color:#f9b920;
+  font-style:italic;
+}
+
 .navbar-inverse {
     background: #e68200;
      border: 0px solid transparent;
@@ -193,6 +223,19 @@ color: rgba(224, 205, 39, 0.79);
 
 }
 
+
+.link-portfolio{
+	font-weight:600;
+	font-size: 22px;
+}
+
+
+
+.gallery_product div p{
+	color: #c7c7c7;
+}
+
+
 /* End Abilities*/
 
 /*Portfolio*/
@@ -294,7 +337,7 @@ footer p{
     position: relative;
     text-align: center;
     cursor: default;
-    background: #482b00;
+    background: #321f03;
         margin-top: 30px;
 }
 
@@ -468,3 +511,7 @@ margin-bottom:10px;
 {
     margin-bottom: 30px;
 }
+
+
+
+/*Scroll to top*/
